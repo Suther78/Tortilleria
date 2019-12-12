@@ -1,0 +1,75 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center">
+                    Contactactanos <strong>Tortilleria Juarez</strong>
+                </h2>
+                <hr>
+            </div>
+            <div class="col-md-8">
+                <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+                <iframe width="100%" scrolling="no" height="400" frameborder="0"src="https://www.google.com/maps/d/u/0/embed?mid=1EJjCue7j4ZxxhAQNSeDpDGw8nYOtHhbS" marginwidth="0" marginheight="0"></iframe>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    Telefono(Matriz): <strong>664-688-22-19</strong>
+                </p>
+                <p>
+                    Telefono(Sucursal Otay):<strong>664-628-15-94</strong>
+                </p>
+                <p>
+                    Email: <strong>juareztortilleriacontacto@gmail.com</strong>
+                </p>
+                <p>
+                    Direccion(Matriz): <strong>Calle Emiliano Zapata 820,Zona Centro, 22000 Tijuana, B.C.</strong>
+                </p>
+                <p>
+                    Direccion(Sucursal Otay): <strong>Calz del Tecnológico 13420, Tomas Aquino, 22414 Tijuana, B.C.</strong>
+                </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center">
+                    Nos encantaria recibir <strong>tus comentarios!</strong>
+                </h2>
+                <hr>
+                <form role="form">
+                    <div class="row">
+                        <div class="form-group col-lg-4">
+                            <label>Nombre: </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label>Email:</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label>Numerio Telefonico:</label>
+                            <input type="tel" class="form-control">
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="form-group col-lg-12">
+                            <label>Message</label>
+                            <textarea rows="6" class="form-control"></textarea>
+                        </div>
+                        <div class="form-group col-lg-12">
+                            <input type="hidden" value="contact" name="save">
+                            <button class="btn btn-default" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
